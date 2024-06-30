@@ -1,0 +1,10 @@
+---
+# vars file for nvim
+
+vim_dir: "{{ ansible_env.HOME }}/.vim"
+vimrc: "{{ ansible_env.HOME }}/.vimrc"
+install_packages:
+  - vim_enhanced
+  - git
+  - powerline-fonts
+  - fzf
